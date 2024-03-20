@@ -48,13 +48,13 @@ class ModelViewerState extends State<O3DModelViewer> {
 
   @override
   Widget build(final BuildContext context) {
-    if (_proxy == null || _webViewController == null) {
-      return const Center(
-        child: CircularProgressIndicator(
-          semanticsLabel: 'Loading Model Viewer',
-        ),
-      );
-    }
+    // if (_proxy == null || _webViewController == null) {
+    //   return const Center(
+    //     child: CircularProgressIndicator(
+    //       semanticsLabel: 'Loading Model Viewer',
+    //     ),
+    //   );
+    // }
     return WebView(
       onWebViewCreated: (controller) {
         _webViewController = controller;
