@@ -14,7 +14,7 @@ class O3dImp implements O3DControllerInterface {
 
   @override
   void cameraOrbit(double theta, double phi, double radius) {
-    webViewController?.runJavaScript('''(() => {
+    webViewController?.runJavascript('''(() => {
         cameraOrbit$id($theta, $phi, $radius); 
       })();
     ''');
@@ -22,7 +22,7 @@ class O3dImp implements O3DControllerInterface {
 
   @override
   void cameraTarget(double x, double y, double z) {
-    webViewController?.runJavaScript('''(() => {
+    webViewController?.runJavascript('''(() => {
         cameraTarget$id($x, $y, $z); 
       })();
     ''');
@@ -30,7 +30,7 @@ class O3dImp implements O3DControllerInterface {
 
   @override
   void customJsCode(String code) {
-    webViewController?.runJavaScript('''(() => {
+    webViewController?.runJavascript('''(() => {
         customEvaluate$id('$code'); 
       })();
     ''');
@@ -41,7 +41,7 @@ class O3dImp implements O3DControllerInterface {
 
   @override
   set animationName(String? name) {
-    webViewController?.runJavaScript('''(() => {
+    webViewController?.runJavascript('''(() => {
         animationName$id('$name'); 
       })();
     ''');
@@ -49,7 +49,7 @@ class O3dImp implements O3DControllerInterface {
 
   @override
   set autoRotate(bool? set) {
-    webViewController?.runJavaScript('''(() => {
+    webViewController?.runJavascript('''(() => {
         autoRotate$id($set); 
       })();
     ''');
@@ -57,7 +57,7 @@ class O3dImp implements O3DControllerInterface {
 
   @override
   set autoPlay(bool? set) {
-    webViewController?.runJavaScript('''(() => {
+    webViewController?.runJavascript('''(() => {
         autoPlay$id($set); 
       })();
     ''');
@@ -65,7 +65,7 @@ class O3dImp implements O3DControllerInterface {
 
   @override
   set cameraControls(bool? set) {
-    webViewController?.runJavaScript('''(() => {
+    webViewController?.runJavascript('''(() => {
         cameraControls$id($set); 
       })();
     ''');
@@ -73,7 +73,7 @@ class O3dImp implements O3DControllerInterface {
 
   @override
   set variantName(String? set) {
-    webViewController?.runJavaScript('''(() => {
+    webViewController?.runJavascript('''(() => {
         variantName$id('$set'); 
       })();
     ''');
@@ -81,14 +81,14 @@ class O3dImp implements O3DControllerInterface {
 
   @override
   Future<List<String>> availableAnimations() async {
-    final res = await webViewController?.runJavaScriptReturningResult(
+    final res = await webViewController?.runJavascriptReturningResult(
         'document.querySelector(\'#$id\').availableAnimations');
     return jsonDecode(res as String).cast<String>();
   }
 
   @override
   void pause() {
-    webViewController?.runJavaScript('''(() => {
+    webViewController?.runJavascript('''(() => {
         pause$id(); 
       })();
 ''');
@@ -96,7 +96,7 @@ class O3dImp implements O3DControllerInterface {
 
   @override
   void play({int? repetitions}) {
-    webViewController?.runJavaScript('''(() => {
+    webViewController?.runJavascript('''(() => {
         play$id({repetitions: $repetitions}); 
       })();
 ''');

@@ -5,5 +5,5 @@ class JavascriptChannel {
   const JavascriptChannel(this.name, {required this.onMessageReceived});
 
   final String name;
-  final ValueChanged<JavaScriptMessage> onMessageReceived;
+  final ValueChanged<JavascriptMessage> onMessageReceived;
 }

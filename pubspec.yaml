@@ -31,9 +31,9 @@ dependencies:
 
   path: ^1.8.3
   url_launcher: ^6.2.1
-  webview_flutter: ^4.4.2
-  webview_flutter_android: ^3.12.1
-  webview_flutter_wkwebview: ^3.9.4
+  webview_flutter: ^3.0.0
+  webview_flutter_android: ^2.8.0
+  webview_flutter_wkwebview: ^2.7.0
 
 dev_dependencies:
   flutter_test:

@@ -1,12 +1,12 @@
 # This is a generated file; do not edit or check into version control.
-android_intent_plus=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\android_intent_plus-4.0.3\\
-url_launcher=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher-6.2.1\\
-url_launcher_android=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher_android-6.2.0\\
-url_launcher_ios=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher_ios-6.2.1\\
-url_launcher_linux=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher_linux-3.1.0\\
-url_launcher_macos=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher_macos-3.1.0\\
-url_launcher_web=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher_web-2.2.0\\
-url_launcher_windows=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\url_launcher_windows-3.1.0\\
-webview_flutter=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\webview_flutter-4.4.2\\
-webview_flutter_android=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\webview_flutter_android-3.12.1\\
-webview_flutter_wkwebview=C:\\Users\\Babak\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\webview_flutter_wkwebview-3.9.4\\
+android_intent_plus=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/android_intent_plus-4.0.3/
+url_launcher=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/url_launcher-6.2.5/
+url_launcher_android=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_android-6.3.0/
+url_launcher_ios=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_ios-6.2.5/
+url_launcher_linux=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_linux-3.1.1/
+url_launcher_macos=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_macos-3.1.0/
+url_launcher_web=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_web-2.2.3/
+url_launcher_windows=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/url_launcher_windows-3.1.1/
+webview_flutter=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter-3.0.4/
+webview_flutter_android=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_android-2.10.4/
+webview_flutter_wkwebview=/Users/edikii/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_wkwebview-2.9.5/

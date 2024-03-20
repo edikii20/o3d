@@ -713,7 +713,7 @@ class O3D extends StatefulWidget {
   // final NodeValidatorBuilder? overwriteNodeValidatorBuilder;
 
   /// Passthrough to `javascriptChannels` in the underlying `WebView`.
-  final Set<JavascriptChannel>? javascriptChannels;
+  final Set<JavascriptChannelRegistry>? javascriptChannels;
 
   /// Passthrough to `onWebViewCreated` in the underlying `WebView`.
   ///
