@@ -58,6 +58,7 @@ class ModelViewerState extends State<O3DModelViewer> {
     return WebView(
       onWebViewCreated: (controller) {
         _webViewController = controller;
+        debugPrint('INIT CONTROLLER !!!!');
         _initController();
       },
       // controller: _webViewController!,
@@ -213,7 +214,8 @@ class ModelViewerState extends State<O3DModelViewer> {
 
     debugPrint('ModelViewer initializing... <$_proxyURL>');
     // widget.onWebViewCreated?.call(webViewController);
-    await _webViewController?.loadUrl(_proxyURL);
+    await _webViewController?.loadRequest(WebViewRequest(
+        uri: Uri.parse(_proxyURL), method: WebViewRequestMethod.get));
     setState(() {});
     widget.controller?.logger?.call('initialized webViewController');
     // Future.delayed(const Duration(seconds: 5),() => _webViewController?.loadRequest(Uri.parse('${_proxyURL}model')));
